@@ -2,7 +2,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+### IDE Setup
+
+- VSCode Plugins: Tailwind CSS IntelliSense (read suggested VSCode Settings)
+
+Next, run the development server:
 
 ```bash
 npm run dev
