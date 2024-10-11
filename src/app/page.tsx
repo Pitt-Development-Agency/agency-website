@@ -1,9 +1,9 @@
-import Nav from "./nav";
+import Services from "./services";
 
 export default function Home() {
   return (
     <>
-      <Nav />
+      <Services />
     </>
   );
 }

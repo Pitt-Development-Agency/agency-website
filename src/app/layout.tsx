@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Nav from "./nav";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -16,8 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.className} antialiased`}>
-        {children}
+      {/* TODO: Not sure if making body a flex is acceptable */}
+      <body
+        className={`${spaceGrotesk.className} antialiased flex flex-col items-center`}
+      >
+        <Nav />
+        <div className="max-w-screen-lg mt-9">{children}</div>
       </body>
     </html>
   );
