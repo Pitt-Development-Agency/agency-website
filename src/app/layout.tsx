@@ -22,7 +22,7 @@ export default function RootLayout({
         className={`${spaceGrotesk.className} antialiased flex flex-col items-center`}
       >
         <Nav />
-        <div className="max-w-screen-lg mt-9">{children}</div>
+        <div className="max-w-screen-lg mt-9 mb-14">{children}</div>
       </body>
     </html>
   );
