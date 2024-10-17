@@ -73,3 +73,16 @@ export const ENGINEER_INFO = [
     imageUrl: michaelPic,
   },
 ];
+
+export const SERVICE_INFO = [
+  {
+    label: "Web Development",
+    description:
+      "Vape cronut cardigan pinterest VHS. Tofu forage af jawn viral vegan, Brooklyn cardigan godard pickled schlitz glossier messenger bag lumbersexual. XOXO portland distillery vice narwhal lyft enamel pin big mood pork belly Brooklyn vexillologist mukbang vape. Neutral milk hotel normcore etsy, activated charcoal green juice aesthetic artisan.",
+  },
+  {
+    label: "Web Maintenance",
+    description:
+      " Truffaut yuccie Brooklyn lo-fi. Butcher master cleanse DIY, vape enamel pin etsy biodiesel food truck aesthetic freegan authentic mixtape gluten-free tattooed. Same pug microdosing, affogato kogi +1 tattooed tofu pork belly lomo kitsch marxism enamel pin chambray.",
+  },
+];
